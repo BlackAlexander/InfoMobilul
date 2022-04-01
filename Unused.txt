@@ -1,0 +1,48 @@
+//var id: int = 0;
+//var id2: int = 1;
+
+
+/*
+	for (var i: int = id2; i <= id; i++) {
+		var aTrack = this.getChildByName("track" + String(i));
+		aTrack.y += runSpeed * Math.cos((runCarAngle - 180) * Math.PI / 180);
+	}
+	if (id > 300) {
+		var toDelete:DisplayObject = this.getChildByName("track" + String (id - 300));
+		if (toDelete) {
+			this.removeChild(toDelete);
+			toDelete = null;
+		}
+		id2++;
+	}
+	var newTrack = new cartrack;
+	this.addChild(newTrack);
+	newTrack.x = MiniCountry.x + (runSpeed) * Math.sin((runCarAngle - 180) * Math.PI / 180);
+	newTrack.y = MiniCountry.y - (runSpeed) * Math.cos((runCarAngle - 180) * Math.PI / 180);
+	newTrack.rotation = runCarAngle;
+	if (runSpeed < 2) {
+		newTrack.alpha = 0;
+	} else {
+		newTrack.alpha = 0.2;//runSpeed/100;
+	}
+	id++;
+	newTrack.name = String("track" + String(id));*/
+
+
+	/*
+	runCarAngle += runWheelAngle * runSpeed/50;
+	if (runCarAngle > 360) {
+	runCarAngle = runCarAngle - 360;
+	}
+	if (runCarAngle < 0) {
+	runCarAngle = runCarAngle + 360;
+	}
+	MiniCountry.gotoAndStop(runCarAngle);
+	
+	if (runLeftPressed && (runWheelAngle > -35)) {
+	runWheelAngle--;
+	}
+	if (runRightPressed && (runWheelAngle < 35)) {
+	runWheelAngle++;
+	}
+	MiniSteer.rotation = runWheelAngle * 10;*/
